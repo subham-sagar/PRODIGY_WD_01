@@ -1,0 +1,160 @@
+*{
+    padding: 0px;
+    margin: 0cm;
+    box-sizing: border-box;
+}
+body{
+    width: 99%;
+    height: 97%;
+    background-image: url(Background2.png);
+    background-size: cover;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    padding: 50px;
+}
+.logo{
+    font-size: 40px;
+    color: orange;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+a{
+    padding: 17px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+    text-decoration: underline;
+    font-size: 21px;
+    text-underline-position: under;
+}
+
+/*heading*/
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 65px;
+    align-items: center;
+}
+#p1{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-style: italic;
+
+
+}
+#p1::first-letter{
+    font-size: 50px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+
+.left h2{
+    font-size: 90px;
+    color:white;
+
+}
+#p2{
+    color: orange;
+    font-size: 30px;
+    font-style: italic;
+}
+.left button{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    margin: 20px;
+    font-weight: 600;
+}
+.left button:hover{
+    background-color: orange;
+    color: black;
+    font-weight: 600;
+}
+.right{
+    width: 440px;
+    height: 440px;
+    background-image: url(food.jpg);
+    background-size: cover;
+    border-radius: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right::before{
+    width: 430px;
+    height: 430px;
+    border: 2px solid white;
+    position: absolute;
+    content: '';
+    border-radius: 430px;
+    padding: 10px;
+}
+#food1,#food2{
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0px 20px;
+}
+#food1{
+    background-image: url(food.jpg);
+}
+#food2{
+    background-image: url(food1.png);
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 100px;
+}
+.social{
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    width: 40px;
+    background-color: white;
+    height: 160px;
+    
+}
+#a1,#a2,#a3,#a4{
+    height: 40px;
+    width: 40px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 90px;
+  
+}
+
+#a1:hover{
+    background-color: orange;
+}
+#a2:hover{
+    background-color: orange;
+}
+#a3:hover{
+    background-color: orange;
+}
+#a4:hover{
+    background-color: orange;
+}
+
